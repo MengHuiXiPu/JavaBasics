@@ -1,8 +1,6 @@
 # Spring MVC控制器的14个技巧
 
-通常，在Spring MVC中，我们编写一个控制器类来处理来自客户端的请求。然后，控制器调用业务类来处理与业务相关的任务，然后将客户端重定向到逻辑视图名称，该名称由Spring的调度程序Servlet解析，以呈现结果或输出。这样就完成了典型的请求-响应周期的往返。今天整理了一下编写Spring MVC控制器的14个技巧
-
-## **1.使用@Controller构造型**
+## **1.使用@Controller构造型 **
 
 这是创建可以处理一个或多个请求的控制器类的最简单方法。仅通过用构造型注释一个类`@Controller` ，例如：
 
@@ -554,3 +552,7 @@ public class OrderController {
 public class PaymentController {
 }
 ```
+
+1. 
+
+这14个小技巧，可以帮助你正确有效地在Spring MVC中编写控制器类。如果你有其他提示或建议，请随时在评论中分享您的想法。
